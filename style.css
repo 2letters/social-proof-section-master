@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'League Spartan', sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 1110px;
+    height: 582px;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.info {
+    width: 417px;
+    height: 245px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 88%;
+    letter-spacing: -0.027em;
+    color: hsl(300, 43%, 22%);
+}
+
+.info p {
+    margin-top: 26px;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 129%;
+    letter-spacing: -0.024em;
+    color: hsl(303, 10%, 53%);
+}
+
+.ratings {
+    margin-top: 27px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 540px;
+    height: 200px;
+}
+
+.ratings section {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 413px;
+    height: 56px;
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 10px;
+    padding-left: 32px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 15px;
+    letter-spacing: 0.03em;
+    color: hsl(300, 43%, 22%);
+    margin-left: 32px;
+}
+
+.ratings .middle {
+    margin-left: 48px;
+}
+
+.ratings .bottom {
+    margin-left: 95px;
+}
+
+.reviews {
+    margin-top: 71px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1110px;
+    height: 266px;
+}
+
+.reviews section {
+    background-color: hsl(300, 43%, 22%);
+    padding: 40px 32px 39px 32px;
+    width: 286px;
+    height: 155px;
+    border-radius: 10px;
+}
+
+.person {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.person img {
+    width: 40px;
+    height: 40px;
+    border-radius: 100vmax;
+    margin-right: 23px;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 15px;
+    letter-spacing: 0.03em;
+    color: white;
+}
+
+h4 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 15px;
+    letter-spacing: 0.02em;
+    color: hsl(333, 80%, 67%);
+}
+
+.reviews p {
+    margin-top: 27px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 135%;
+    letter-spacing: 0.017em;
+    color: hsl(300, 24%, 96%);
+}
+
+.reviews .middle {
+    margin-top: 16px;
+}
+
+.reviews .right {
+    margin-top: 32px;
+}
