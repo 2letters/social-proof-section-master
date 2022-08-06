@@ -88,11 +88,11 @@ h2 {
     margin-left: 32px;
 }
 
-.ratings .middle {
+.ratings section:nth-child(2) {
     margin-left: 48px;
 }
 
-.ratings .bottom {
+.ratings section:nth-child(3) {
     margin-left: 95px;
 }
 
@@ -152,11 +152,11 @@ h4 {
     color: hsl(300, 24%, 96%);
 }
 
-.reviews .middle {
+.reviews section:nth-child(2) {
     margin-top: 16px;
 }
 
-.reviews .right {
+.reviews section:nth-child(3) {
     margin-top: 32px;
 }
 
@@ -230,11 +230,11 @@ h4 {
         margin-left: 0;
     }
 
-    .ratings .middle {
+    .ratings section:nth-child(2) {
         margin: 0;
     }
 
-    .ratings .bottom {
+    .ratings section:nth-child(3) {
         margin: 0;
     }
 
@@ -251,12 +251,8 @@ h4 {
         height: 177px;
     }
 
-    .reviews .middle {
-        margin: 0;
-    }
-
-    .reviews .right {
-        margin: 0;
+    .reviews section:nth-child(3) {
+        margin-top: 16px;
     }
 
 }
