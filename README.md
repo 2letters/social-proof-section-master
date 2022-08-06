@@ -20,8 +20,8 @@ This is a solution to the [Social proof section challenge on Frontend Mentor](ht
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://)
-- Live Site URL: [Site](https://)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/flexbox-social-proof-section-L4zuhGQQlj)
+- Live Site URL: [Site](https://social-proof-section-master-kappa-eight.vercel.app/)
 
 ## My process
 
