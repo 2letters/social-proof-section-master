@@ -12,6 +12,9 @@ body {
     justify-content: center;
     align-items: center;
     font-family: 'League Spartan', sans-serif;
+    background-image: url("images/bg-pattern-top-desktop.svg"), url("images/bg-pattern-bottom-desktop.svg");
+    background-repeat: no-repeat;
+    background-position: top, bottom;
 }
 
 main {
@@ -147,4 +150,104 @@ h4 {
 
 .reviews .right {
     margin-top: 32px;
+}
+
+@media screen and (max-width: 375px){
+
+    body {
+        background-image: url("images/bg-pattern-top-mobile.svg"), url("images/bg-pattern-bottom-mobile.svg");
+    }
+
+}
+
+@media screen and (max-width: 1280px){
+
+    html {
+        height: auto;
+    }
+
+    body {
+        height: auto;
+    }
+
+    main {
+        margin: 82px 0 82px 0;
+        width: 329px;
+        height: 1349px;
+    }
+
+    .top {
+        flex-direction: column;
+    }
+
+    .info {
+        width: 329px;
+        height: 219px;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 40px;
+        line-height: 80%;
+        letter-spacing: -0.035em;
+    }
+
+    .info p {
+        margin-top: 23px;
+    }
+
+    .ratings {
+        margin-top: 39px;
+        justify-content: space-between;
+        width: 327px;
+        height: 266px;
+    }
+
+    .ratings section {
+        justify-content: center;
+        flex-direction: column;
+        width: 327px;
+        height: 78px;
+        padding: 0;
+    }
+
+    .ratings div {
+        width: 117px;
+        height: 16px;
+    }
+
+    h2 {
+        margin-top: 16px;
+        margin-left: 0;
+    }
+
+    .ratings .middle {
+        margin: 0;
+    }
+
+    .ratings .bottom {
+        margin: 0;
+    }
+
+    .reviews {
+        margin-top: 49px;
+        flex-direction: column;
+        width: 327px;
+        height: 776px;
+    }
+
+    .reviews section {
+        padding: 40px 32px 31px 32px;
+        width: 263px;
+        height: 177px;
+    }
+
+    .reviews .middle {
+        margin: 0;
+    }
+
+    .reviews .right {
+        margin: 0;
+    }
+
 }
